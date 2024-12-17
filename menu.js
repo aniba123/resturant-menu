@@ -27,7 +27,7 @@ const menu = [
   });
   
   // Function to display menu items
-  function displayMenuItems(menuItems) {
+  function displayMenuItems(menuItems) { 
     const itemsHTML = menuItems.map(function (item) {
       return `
         <article class="menu-item">
